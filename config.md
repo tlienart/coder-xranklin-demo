@@ -1,5 +1,7 @@
 +++
 
+prepath = "coder-xranklin-demo"
+
 # Layout information
 
 author = "John Doe"
