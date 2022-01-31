@@ -41,7 +41,7 @@ jobs:
           build();'
 
       # Deployment and caching
-      - run: touch docs/__site/.nojekyll
+      - run: touch __site/.nojekyll
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
