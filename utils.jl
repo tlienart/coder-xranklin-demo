@@ -30,6 +30,14 @@ function hfun_page_tags()
 end
 
 # ===============================================
+# Logic to show the list of tags for a page
+# ===============================================
+
+function hfun_taglist()
+    return hfun_list_posts(getlvar(:tag_name))
+end
+
+# ===============================================
 # Logic to retrieve posts in posts/ and display
 # them as a list sorted by anti-chronological
 # order.
@@ -38,7 +46,7 @@ end
 # all posts.
 # ===============================================
 
-function hfun_list_posts()
+function hfun_list_posts(t::String)
     return string(
         node("ul",
                 (
@@ -46,22 +54,31 @@ function hfun_list_posts()
                         node("span", class="date", Dates.format(p.date, "U d, yyyy")),
                         node("a", class="title", href=p.href, p.title)
                     )
-                    for p in get_posts()
+                    for p in get_posts(t)
                 )...
             )
         )
 end
+hfun_list_posts() = hfun_list_posts("")
 
-function get_posts()
+
+function get_posts(t::String)
     paths = joinpath.("posts", filter!(p -> p != "index.md", readdir("posts")))
     posts = [
         (
             date  = getvarfrom(:date, rp),
             title = getvarfrom(:title, rp),
-            href  = "/$(splitext(rp)[1])"
+            href  = "/$(splitext(rp)[1])",
+            tags  = get_page_tags(rp)
         )
         for rp in paths
     ]
     sort!(posts, by = x->x.date, rev=true)
+    if !isempty(t)
+        filter!(
+            p -> t in values(p.tags),
+            posts
+        )
+    end
     return posts
 end
