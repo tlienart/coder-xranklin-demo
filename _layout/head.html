@@ -51,6 +51,12 @@
   .hljs {
     padding: 1em;
   }
+  .landing {
+    background-image: url('../assets/ocean.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% clamp(25vw, 400px, 30vw);
+  }
   </style>
 
 </head>
@@ -63,7 +69,7 @@
     </a>
   </div>
 
-  <main class="wrapper">
+  <main class="wrapper {{ispage index.html}}landing{{end}}">
 
     {{insert nav.html}}
 
