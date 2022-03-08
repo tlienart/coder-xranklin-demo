@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: tlienart/xranklin-build-action@v1.14
+      - uses: tlienart/xranklin-build-action@v1.15
         with:
           BASE_URL_PREFIX: "coder-xranklin-demo"
