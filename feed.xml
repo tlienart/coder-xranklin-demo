@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:georss="http://www.georss.org/georss">
+  <channel>
+    <title>
+      <![CDATA[  Coder Xranklin demo  ]]>
+    </title>
+    <link> https://tlienart.github.io/coder-xranklin-demo/ </link>
+    <description>
+      <![CDATA[  Coder Xranklin demo  ]]>
+    </description>
+
+<item>
+  <title>
+    <![CDATA[  Markdown Syntax Guide  ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/posts/markdown-syntax/index.html </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/posts/markdown-syntax/index.html </guid>
+  <description>
+    <![CDATA[  Markdown syntax etc  ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Placeholder Text  ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/posts/placeholder-text/index.html </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/posts/placeholder-text/index.html </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Math Typesetting  ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/posts/math-typesetting/index.html </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/posts/math-typesetting/index.html </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Emoji Support  ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/posts/emoji-support/index.html </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/posts/emoji-support/index.html </guid>
+  <description>
+    <![CDATA[  Emoji support yada yada  ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[    ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/about/index.html </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/about/index.html </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[    ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/contact/index.html </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/contact/index.html </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[    ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/projects/index.html </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/projects/index.html </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[    ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/ </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/ </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[    ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/ </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/ </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[    ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/ </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/ </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[    ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/ </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/ </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[    ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/ </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/ </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[    ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/ </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/ </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[    ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/posts/index.html </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/posts/index.html </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[    ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/404.html </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/404.html </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
+    <![CDATA[    ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/index.html </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/index.html </guid>
+  <description>
+    <![CDATA[    ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+</channel></rss>
