@@ -2,10 +2,13 @@
 using Dates
 
 title = "Emoji Support"
-date  = DateTime(2019, 3, 5)
+date  = Date(2019, 3, 5)
 reading_time = "One-minute read"
 
-tags = ["markdown", "text", "emoji"]
+tags = ["markdown", "text", "bar"]
+
+rss_descr = "Emoji support yada yada"
+rss_title = title
 +++
 
 Emojis are supported out of the box in Franklin. You can either copy paste emojis in your source code or use a shorthand such as `:+1:`: :+1:.
@@ -19,8 +22,6 @@ using REPL.REPLCompletions: emoji_symbols
 println(get(emoji_symbols, "\\:+1:", "not found"))
 println(get(emoji_symbols, "\\:dragon_face:", "not found"))
 ```
-
-
 
 ***
 

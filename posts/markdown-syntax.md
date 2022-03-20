@@ -2,10 +2,13 @@
 using Dates
 
 title = "Markdown Syntax Guide"
-date  = DateTime(2019, 3, 11)
+date  = Date(2019, 3, 11)
 reading_time = "3-minute read"
 
 tags = ["markdown", "css", "HTML"]
+
+rss_descr = "Markdown syntax etc"
+rss_title = title
 +++
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.

@@ -2,7 +2,7 @@
 using Dates
 
 title = "Math Typesetting"
-date  = DateTime(2019, 3, 8)
+date  = Date(2019, 3, 8)
 reading_time = "One-minute read"
 
 tags = ["markdown", "text", "math"]

@@ -1,6 +1,10 @@
 +++
 
 prepath = "coder-xranklin-demo"
+generate_rss = true
+rss_website_url = "https://tlienart.github.io/coder-xranklin-demo/"
+rss_website_title = "Coder Xranklin demo"
+rss_website_descr = "Coder Xranklin demo"
 
 # Layout information
 
@@ -15,7 +19,7 @@ tw_card = "summary"
 tw_title = author_short
 tw_descr = meta_descr
 
-website_url = "https://tlienart.github.io/coder-template/"
+website_url = rss_website_url
 
 footer_notice = """
   © 2022 $author · Powered by
