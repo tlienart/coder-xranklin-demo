@@ -2,4 +2,4 @@
 header = "Contact"
 +++
 
-Follow me, @{{author_short}}.
+Follow me, @{{author_short}}...
