@@ -6,7 +6,7 @@ rss_website_url = "https://tlienart.github.io/coder-xranklin-demo/"
 rss_website_title = "Coder Xranklin demo"
 rss_website_descr = "Coder Xranklin demo"
 
-# Layout information
+# Layout information.
 
 author = "John Doe"
 author_blurb = "Full Stack DevOps<br>Magician<br>"
