@@ -12,7 +12,7 @@ author = "John Doe"
 author_blurb = "Full Stack DevOps<br>Magician<br>"
 author_short = "johndoe"
 
-meta_descr = "John Doe's personal website"
+meta_descr = "John Doe's website"
 meta_kw = "blog,developer,personal"
 
 tw_card = "summary"
