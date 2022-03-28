@@ -16,6 +16,20 @@
 
 <item>
   <title>
+    <![CDATA[  Literate  ]]>
+  </title>
+  <link> https://tlienart.github.io/coder-xranklin-demo/posts/literate/index.html </link>
+  <guid> https://tlienart.github.io/coder-xranklin-demo/posts/literate/index.html </guid>
+  <description>
+    <![CDATA[  Using Literate  ]]>
+  </description>
+  <atom:author>
+    <atom:name>John Doe</atom:name>
+  </atom:author>
+</item>
+
+<item>
+  <title>
     <![CDATA[  Markdown Syntax Guide  ]]>
   </title>
   <link> https://tlienart.github.io/coder-xranklin-demo/posts/markdown-syntax/index.html </link>

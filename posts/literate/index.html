@@ -35,9 +35,9 @@
   <meta name="generator" content="Franklin.jl" />
 
   
-    <link rel="stylesheet" href="/coder-xranklin-demo/libs/katex/katex.min.css">
-  
 
+  
+    <link rel="stylesheet" href="/coder-xranklin-demo/libs/highlight/github.min.css">
   
 
   <style>
@@ -107,8 +107,8 @@
           <header>
   <div class="post-title">
     <h1 class="title">
-      <a class="title-link" href="/coder-xranklin-demo/posts/math-typesetting/index.html">
-        Math Typesetting
+      <a class="title-link" href="/coder-xranklin-demo/posts/literate/index.html">
+        Literate
       </a>
     </h1>
   </div>
@@ -118,15 +118,15 @@
       <div class="date">
         <span class="posted-on">
           <i class="fa fa-calendar" aria-hidden="true"></i>
-          <time datetime='2019-03-08'>
-            March 8, 2019
+          <time datetime='2022-03-28'>
+            March 28, 2022
           </time>
         </span>
 
         
           <span class="reading-time">
             <i class="fa fa-clock-o" aria-hidden="true"></i>
-            One-minute read
+            3-minute read
           </span>
         
       </div>
@@ -135,7 +135,7 @@
     
       <div class="tags">
         <i class="fa fa-tag" aria-hidden="true"></i>
-        <span class="tag"><a href="/coder-xranklin-demo/tags/markdown/">markdown</a></span><span class="separator">•</span><span class="tag"><a href="/coder-xranklin-demo/tags/text/">text</a></span><span class="separator">•</span><span class="tag"><a href="/coder-xranklin-demo/tags/math/">math</a></span>
+        <span class="tag"><a href="/coder-xranklin-demo/tags/literate/">literate</a></span>
       </div>
     
     </div>
@@ -145,17 +145,38 @@
        
        
        
-<p>Mathematical notation in a Franklin project are supported out of the box with <a href="https://katex.org/">KaTeX</a>.</p>
-<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a>.</p>
-<h3 id="examples" > Examples<a class="heading-link" href="#examples">
+<p>You can work with literate files (everything below the horizontal line is from a Literate file).</p>
+
+<hr>
+<h3 id="this_is_literate" > This is Literate<a class="heading-link" href="#this_is_literate">
   <i class="fa fa-link" aria-hidden="true"></i>
 </a>
-</h3><p>Inline math: \( \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)</p>
-<p>Block math:</p>
-\[ 
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
- \]
-
+</h3><p>It works as you'd expect it, code as well:</p>
+<pre><code class="julia">1+1</code></pre>
+<div class="code-output"><pre><code class="code-result language-plaintext">2</code></pre></div><p>you just need to make sure you have <code>import Literate</code> or
+<code>using Literate</code> in your <code>utils.jl</code>.</p>
+<pre><code class="julia">for i in 1:10
+    println(&quot;*&quot;^i)
+end</code></pre>
+<div class="code-output"><pre><code class="code-stdout language-plaintext">*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+</code></pre></div><p>that's it!</p>
+<h3 id="packages" > Packages<a class="heading-link" href="#packages">
+  <i class="fa fa-link" aria-hidden="true"></i>
+</a>
+</h3><p>You can also use Packages of course</p>
+<pre><code class="julia">using Colors
+RGB(0.5, 0.7, 0.2)</code></pre>
+<div class="code-output"><img class="code-figure" src="/coder-xranklin-demo/assets/posts/literate/figs-html/__autofig_16690618627325798369.svg">
+</div>
 
       </section>
     </div>
@@ -171,11 +192,10 @@
   </main>
 
   
-    <script src="/coder-xranklin-demo/libs/katex/katex.min.js"></script>
-    <script src="/coder-xranklin-demo/libs/katex/auto-render.min.js"></script>
-    <script>renderMathInElement(document.body)</script>
-  
 
+  
+    <script src="/coder-xranklin-demo/libs/highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();hljs.configure({tabReplace: '    '});</script>
   
 
 <script src="/coder-xranklin-demo/libs/coder.min.js"></script>
